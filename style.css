@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1f2937;
+  color: white;
+  padding: 15px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+header ul {
+  display: flex;
+  gap: 20px;
+}
+
+.general {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 100px;
+  background-color: #1f2937;
+  color: white;
+}
+.general .container {
+  display: block;
+  width: 300px;
+}
+
+.random {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 50px;
+}
+.random .randomtitle {
+  font-weight: bold;
+}
+.random .images {
+  display: flex;
+  gap: 10px;
+}
+.images .image1,
+.images .image2,
+.images .image3,
+.images .image4 {
+  text-align: center;
+  width: 150px;
+}
+
+.quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e7eb;
+  font-family: italic, sans-serif;
+  color: #1f2937;
+  font-size: 36px;
+}
+.quote .container {
+  width: 650px;
+  padding: 100px;
+}
+.quote .container .author {
+  font-weight: bold;
+  text-align: right;
+  margin-top: 10px;
+  margin-right: 13px;
+}
+
+.SignUpFooter {
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.SignUpFooter .calltoaction {
+  display: flex;
+  background-color: #3882f6;
+  padding: 30px 60px;
+  justify-content: space-between;
+  color: white;
+  border-radius: 5px;
+  gap: 100px;
+}
+.calltoaction button {
+  padding: 1px 20px;
+  background-color: #3882f6;
+  color: white;
+  border-color: white;
+  border-width: 1px;
+  border-radius: 5px;
+}
+.general .container button {
+  background-color: #3882f6;
+  color: white;
+  border-width: 1px;
+  border-radius: 5px;
+  padding: 5px 20px;
+  margin-top: 10px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background-color: #1f2937;
+  color: white;
+}
